@@ -1,6 +1,6 @@
 ---
 title: "The Beatles Music Audio Feature Analysis Report"
-author: "team52"
+author: "team50"
 date: today
 format: pdf
 bibliography: references.bib
