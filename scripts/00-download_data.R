@@ -12,6 +12,7 @@ library(spotifyr)
 library(dplyr)
 library(ggplot2)
 library(purrr)
+library(usethis)
 
 edit_r_environ()
 
