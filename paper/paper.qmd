@@ -57,15 +57,15 @@ theme(legend.position = "none")
 
 As shown in @fig-sample, the distribution of various audio features for The 'Beatles' tracks, including danceability, energy, loudness, and tempo..
 
-The tempo feature shows a wider distribution, indicating that The Beatles’ songs vary greatly in speed, and the danceability and energy features show more concentrated distributions, suggesting that most of The Beatles’ tracks maintain stability in these characteristics.
+The tempo feature shows a wider distribution, indicating that ‘The Beatles’ songs vary greatly in speed, and the danceability and energy features show more concentrated distributions, suggesting that most of The Beatles’ tracks maintain stability in these characteristics.
 
 ```{r}
 ```
 # Results and Conclusion {#sec-result}
 
-From the @fig-sample, we discovered several unique patterns in The Beatles' music across various audio features. Specificaly:
+We discovered several unique patterns in The Beatles' music across various audio features. Specificaly:
 
-The tempo feature exhibits a wider distribution, indicating that the speed of The Beatles' songs varies considerably across their catalog. In contrast, the danceability and energy features are more concentrated, implying that these characteristics tend to remain consistent in most tracks. Similarly, the loudness feature shows less variability, indicating relatively stable dynamics in volume across the songs.
+The tempo feature exhibits a wider distribution, indicating that the speed of ‘The Beatles’ songs varies considerably across their catalog. In contrast, the danceability and energy features are more concentrated, implying that these characteristics tend to remain consistent in most tracks. Similarly, the loudness feature shows less variability, indicating relatively stable dynamics in volume across the songs.
 
 # References {#sec-references}
 
