@@ -13,4 +13,4 @@ outputs/data includes the data used in this paper.
 outputs/paper includes a PDF version of the final paper, the Quarto file used to create the PDF, and a file containing the references for the paper.
 
 LLM Usage Statement
-This project utilized ChatGPT to assist during the research, development, and writing processes.
+None of the components of this work involved the use of LLMs.
