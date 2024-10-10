@@ -12,8 +12,9 @@ library(spotifyr)
 library(dplyr)
 library(ggplot2)
 library(purrr)
-Sys.setenv(SPOTIFY_CLIENT_ID = 'e80ac46681da4417b7d11c9d6a678326')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '0920261d80fc4c52b676bb6bdac9248c')
+
+edit_r_environ()
+
 access_token <- get_spotify_access_token()
 artist_name <- "The Beatles"
 artist <- search_spotify(artist_name, type = "artist")
