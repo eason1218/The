@@ -1,0 +1,73 @@
+---
+title: "The Beatles Music Audio Feature Analysis Report"
+author: "team52"
+date: today
+format: pdf
+bibliography: references.bib
+---
+
+
+# Intro {#sec-intro}
+The Beatles are one of the most influential rock bands of the 20th century. Their music style has evolved over time, ranging from early pop rock to later experimental and creative works, leaving a profound impact on the history of music. This analysis aims to explore the distribution and patterns of The Beatles' music characteristics by leveraging Spotify API audio features data, providing insights into their unique musical style.
+
+# Data Acquisition and Analysis Methods {#sec-data}
+The data for this analysis was obtained from Spotify API using the spotifyr package.Specific uses https://github.com/charlie86/spotifyr. The dataset includes many features,such as:Danceability, Energy, Loundess.
+
+The data analysis method is Distribution Analysis,Correlation Analysis,Scatterplot Matrix, and Cluster Analysis.
+
+In my recent project, I used the "R Core Team" software for statistical computing [@citeR], leveraged the storytelling insights from Alexander's *Telling Stories with Data*[@alexander2023telling],  and accessed Spotify data through the `spotifyr` package[@citespotifyr].
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+library(here)
+library(tidyverse)
+options(scipen=999)
+```
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+radiohead  <- readRDS(here("data","00-raw_data", "radiohead.rds"))
+```
+
+```{r}
+#| warning: false
+#| message: false
+#| echo:    false
+radiohead <- as_tibble(radiohead)
+
+radiohead |>
+  mutate(album_release_date = ymd(album_release_date)) |>
+  ggplot(aes(
+    x = album_release_date,
+    y = duration_ms,
+    group = album_release_date
+  )) +
+  geom_boxplot() +
+  geom_jitter(alpha = 0.5, width = 0.3, height = 0) +
+  theme_minimal() +
+  labs(
+    x = "Album release date",
+    y = "Duration of song (ms)"
+  )
+```
+# Results and Conclusion {#sec-result}
+
+From the figure and four analysis methods, we discovered several unique patterns in The Beatles' music across various audio features. Specificaly:
+
+The Beatles' tracks exhibit high variability in tempo, while maintaining more stable values in danceability and energy.
+
+The correlation analysis reveals that some features, such as loudness and energy, have strong associations, while others, like valence and danceability, remain relatively independent.
+
+The clustering analysis divides The Beatles' tracks into three distinct clusters, highlighting the diversity in their musical style.
+
+The findings from this analysis provide valuable data support for further research on The Beatles' musical style and historical evolution.
+
+# References {#sec-references}
+
+
+
+
+
