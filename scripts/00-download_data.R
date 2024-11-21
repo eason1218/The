@@ -1,6 +1,6 @@
 #### Preamble ####
-# Purpose: Download data
-# Author: team 52
+# Purpose: Download data form spotify api
+# Author: Yizhuo Li
 # Date: 2024/10/10
 # License: MIT
 
