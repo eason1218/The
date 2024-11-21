@@ -2,7 +2,7 @@
 
 ## Overview
 
-The analysis of The Beatles' music reveals a balance between innovation and consistency in their sound. While their tempo varied greatly across tracks, features like danceability and energy remained stable. Strong correlations between loudness and energy suggest a deliberate crafting of intensity in their music. The clustering of songs into distinct groups highlights different phases in their career, showcasing their ability to experiment while retaining core elements. These insights underscore The Beatles’ lasting influence and provide a foundation for future research into their unique musical style. accessed Spotify data through the spotify api. The analysis was performed using R programming and is presented in the final research paper in PDF format.
+The analysis of The Beatles' music reveals a balance between innovation and consistency in their sound. The tempo of their songs shows a wide distribution, indicating significant variation in speed across their catalog. In contrast, features like danceability and energy demonstrate more concentrated distributions, suggesting consistency in rhythmic and energetic elements throughout their work. The loudness feature also exhibits limited variability, reflecting stable volume dynamics across their tracks. The data is used Spotify data through the spotify api. The analysis was performed using R programming and is presented in the final research paper in PDF format.
 
 
 ## File Structure
