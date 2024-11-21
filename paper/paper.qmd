@@ -1,13 +1,14 @@
 ---
 title: "The Beatles Music Audio Feature Analysis Report"
-author: "team50"
-date: today
+author: "YiZhuo Li"
+date: Novemver-21-2024
+date-format: long
 format: pdf
 bibliography: references.bib
 ---
 
 
-# Intro {#sec-intro}
+# Introduction {#sec-intro}
 The Beatles are one of the most influential rock bands of the 20th century. Their music style has evolved over time, ranging from early pop rock to later experimental and creative works, leaving a profound impact on the history of music. This analysis aims to explore the distribution and patterns of The Beatles' music characteristics by leveraging Spotify API audio features data, providing insights into their unique musical style.
 
 # Data Acquisition and Analysis Methods {#sec-data}
