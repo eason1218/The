@@ -1,5 +1,5 @@
 ---
-title: "The Beatles Music Audio Feature Analysis Report"
+title: "Analyzing The Beatles: Musical Patterns Through Audio Features"
 author: "YiZhuo Li"
 date: Novemver-21-2024
 date-format: long
